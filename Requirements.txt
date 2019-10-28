@@ -1,2 +1,9 @@
 Python version -
 Jupyter Notebook
+ 
+ https://git-scm.com/
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
+Cmder | Console Emulator
+http://cmder.net/
+   Windows only: if you are using Windows I recommend you use cmder as your terminal. If you are on Mac or Linux I recommend you use the default Terminal.
