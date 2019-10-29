@@ -16,3 +16,5 @@ https://machinelearningmastery.com/how-to-generate-random-numbers-in-python/
 https://www.howtogeek.com/183051/htg-explains-how-computers-generate-random-numbers/
 
 http://ftp.heanet.ie/pub/ctan.org/tex/info/symbols/comprehensive/symbols-a4.pdf
+https://numpy.org/doc/1.17/user/basics.types.html
+https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.random.normal.html#numpy.random.normal
