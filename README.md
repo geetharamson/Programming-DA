@@ -43,7 +43,7 @@ Returns:
         out : ndarray
 Permuted sequence or array range
 
-#### Distribution function
+###3. Distribution function
 ###### numpy.random.chisquare
 ###### numpy.random.chisquare(df, size=None)
 
@@ -58,20 +58,17 @@ Output shape. If the given shape is, e.g., (m, n, k), then m * n * k samples are
 Returns:	
 out : ndarray or scalar
 
-Raises:	
-ValueError
-When df <= 0 or when an inappropriate size (e.g. size=-1) is given.
+###### Gaussian distribution:
+Gaussian distribution (also known as normal distribution) is a bell-shaped curve, and it is assumed that during any measurement values will follow a normal distribution with an equal number of measurements above and below the mean value.
 
-
-
-Gaussian distribution
-```python
-$ p(x) = \frac{1}{\sqrt{ 2 \pi \sigma^2 }}
-e^{ - \frac{ (x - \mu)^2 } {2 \sigma^2} }  $
-where  $ \mu $ is the mean and $\sigma$ the standard deviation. The square of the standard deviation, $\sigma^2$, is called the variance.
-The function has its peak at the mean, and its “spread” increases with the standard deviation (the function reaches 0.607 times its maximum at $x + \sigma$ and $x- \sigma$ .
-````python
-
+####### Exponential Distribution
+ The exponential distribution is a continuous analogue of the geometric distribution. It describes many common situations, such as the size of raindrops measured over many rainstorms.
+ 
+######  Poisson Distribution
+ Poisson Distribution is a discrete probability distribution that expresses the probability of a given number of events occurring in a fixed interval of time or space if these events occur with a known constant rate and independently of the time since the last event. The Poisson distribution can also be used for the number of events in other specified intervals such as distance, area or volume.
+ 
+ ###### 
+ 
 #### Seeds in generating pseudorandom numbers
 
 A random seed is a starting point in generating random numbers. A random seed specifies the start point when a computer generates
@@ -88,23 +85,21 @@ seed of some value is when we want to debug the program using such deterministic
     numpy.random.seed
     numpy.random.seed(seed=None)
     This method is called when RandomState is initialized. It can be called again to re-seed the generator.
-    Parameters:seed : int or 1-d array_like, optional
-    Seed for RandomState must be convertible to 32 bit unsigned integers.
-         
+             
     #### uses of random.seed()
     1.This is used in generation of pseudo-random encryption key. Encryption keys are important part of computer security. These are the kind of secret keys which used to protect data from unauthorized access over internet.
     2.It makes optimization of codes easy where random numbers are used for testing. The output of the code sometime depends on input. So the use of random numbers for testing algorithm can be complex. Also seed function is used to generate same random numbers again and again and simplifies algorithm testing process.
  
 ## References 
 
-https://machinelearningmastery.com/how-to-generate-random-numbers-in-python/
-https://www.howtogeek.com/183051/htg-explains-how-computers-generate-random-numbers/
-http://ftp.heanet.ie/pub/ctan.org/tex/info/symbols/comprehensive/symbols-a4.pdf
-https://numpy.org/doc/1.17/user/basics.types.html
-https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.random.normal.html#numpy.random.normal
-https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Typesetting%20Equations.html#Other-Syntax
-https://stanford.edu/~shervine/teaching/cs-229/refresher-probabilities-statistics
-
+[link text itself]:https://machinelearningmastery.com/how-to-generate-random-numbers-in-python/
+[link text itself]:https://www.howtogeek.com/183051/htg-explains-how-computers-generate-random-numbers/
+[link text itself]:http://ftp.heanet.ie/pub/ctan.org/tex/info/symbols/comprehensive/symbols-a4.pdf
+[link text itself]:https://numpy.org/doc/1.17/user/basics.types.html
+[link text itself]:https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.random.normal.html#numpy.random.normal
+[link text itself]:https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Typesetting%20Equations.html#Other-Syntax
+[link text itself]:https://stanford.edu/~shervine/teaching/cs-229/refresher-probabilities-statistics
+[link text itself]:https://www.programcreek.com/python/example/50979/numpy.random.poisson
 
 ## Requirements
 Python version - 3.7.4
