@@ -3,12 +3,12 @@
 ## Geetha Karthikesan-DA 2019-2020 
   
 ####  1.Purpose of Numpy.random package
-       To generate an array of random numbers  we need to use numpy. numpy has the numpy.random package which has multiple 
-    functions to generate the random n-dimensional array for various distributions.To generate “true” random numbers, random
-    number generators gather random data from the physical world around them. For random numbers that are cannot
-    be random, we may just use an algorithm and a seed value.Generating truly random numbers in software is indeed 
-    impossible, however it is possible with hardware to build a device which can generate truly random numbers.This package 
-    approximate random numbers, but are 100% determined by the input and the pseudo-random number algorithm.
+   To generate an array of random numbers  we need to use numpy. numpy has the numpy.random package which has multiple 
+   functions to generate the random n-dimensional array for various distributions.To generate “true” random numbers, random
+   number generators gather random data from the physical world around them. For random numbers that are cannot
+   be random, we may just use an algorithm and a seed value.Generating truly random numbers in software is indeed 
+   impossible, however it is possible with hardware to build a device which can generate truly random numbers.This package 
+   approximate random numbers, but are 100% determined by the input and the pseudo-random number algorithm.
     
 #### 2.Use of "Simple random data" and "Permutations" functions    
    ###### numpy.random.rand(d0, d1, ..., dn)
@@ -67,7 +67,9 @@ Gaussian distribution (also known as normal distribution) is a bell-shaped curve
 ######  Poisson Distribution
  Poisson Distribution is a discrete probability distribution that expresses the probability of a given number of events occurring in a fixed interval of time or space if these events occur with a known constant rate and independently of the time since the last event. The Poisson distribution can also be used for the number of events in other specified intervals such as distance, area or volume.
  
- ###### 
+ ###### numpy.random.power
+numpy.random.power(a, size=None) Draws samples in [0, 1] from a power distribution with positive exponent a - 1. Also
+known as the power function distribution.
  
 #### Seeds in generating pseudorandom numbers
 
@@ -87,33 +89,42 @@ The reason for using a seed of some value is when we want to debug the program u
     
     numpy.random.seed
     numpy.random.seed(seed=None)
-    This method is called when RandomState is initialized. It can be called again to re-seed the generator.
+  This method is called when RandomState is initialized. It can be called again to re-seed the generator.
              
   #### uses of random.seed()
-    1.This is used in generation of pseudo-random encryption key. Encryption keys are important part of computer security.
-    These are the kind of secret keys which used to protect data from unauthorized access over internet.
-    2.It makes optimization of codes easy where random numbers are used for testing. The output of the code sometime depends 
-    on input. So the use of random numbers for testing algorithm can be complex. Also seed function is used to generate same 
-    random numbers again and again and simplifies algorithm testing process.
+   1.This is used in generation of pseudo-random encryption key. Encryption keys are important part of computer security.
+   These are the kind of secret keys which used to protect data from unauthorized access over internet.
+   2.It makes optimization of codes easy where random numbers are used for testing. The output of the code sometime depends 
+   on input. So the use of random numbers for testing algorithm can be complex. Also seed function is used to generate same 
+   random numbers again and again and simplifies algorithm testing process.
  
 ## References 
 
 [link] :https://machinelearningmastery.com/how-to-generate-random-numbers-in-python/
+
 [link] :https://www.howtogeek.com/183051/htg-explains-how-computers-generate-random-numbers/
-[link text itself]:http://ftp.heanet.ie/pub/ctan.org/tex/info/symbols/comprehensive/symbols-a4.pdf
-[link text itself]:https://numpy.org/doc/1.17/user/basics.types.html
-[link text itself]:https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.random.normal.html#numpy.random.normal
-[link text itself]:https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Typesetting%20Equations.html#Other-Syntax
-[link text itself]:https://stanford.edu/~shervine/teaching/cs-229/refresher-probabilities-statistics
-[link text itself]:https://www.programcreek.com/python/example/50979/numpy.random.poisson
+
+[link]:http://ftp.heanet.ie/pub/ctan.org/tex/info/symbols/comprehensive/symbols-a4.pdf
+
+[link]:https://numpy.org/doc/1.17/user/basics.types.html
+
+[link]:https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.random.normal.html#numpy.random.normal
+
+[link]:https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Typesetting%20Equations.html#Other-Syntax
+[link]:https://stanford.edu/~shervine/teaching/cs-229/refresher-probabilities-statistics
+[link]:https://www.programcreek.com/python/example/50979/numpy.random.poisson
 
 ## Requirements
+
 Python version - 3.7.4
-[link]https://git-scm.com/
-Cmder | Console Emulator
-http://cmder.net/
+
+[link] https://git-scm.com/
+
+Cmder | Console Emulator [link] http://cmder.net/
 Jupyter Notebook
 Windows only: if you are using Windows I recommend you use cmder as your terminal. If you are on Mac or Linux I recommend you use the default Terminal to open the project.
-https://raw.githubusercontent.com/geetharamson/Programming-DA/master/programming%20DA.ipynb
+
+[link] https://raw.githubusercontent.com/geetharamson/Programming-DA/master/programming%20DA.ipynb
+
 Else in [link] https://nbviewer.jupyter.org/ Paste https://github.com/geetharamson/Programming-DA
 
