@@ -65,12 +65,13 @@ When df <= 0 or when an inappropriate size (e.g. size=-1) is given.
 
 
 Gaussian distribution
+```python
 $ p(x) = \frac{1}{\sqrt{ 2 \pi \sigma^2 }}
 e^{ - \frac{ (x - \mu)^2 } {2 \sigma^2} }  $
 
 where  $ \mu $ is the mean and $\sigma$ the standard deviation. The square of the standard deviation, $\sigma^2$, is called the variance.
-
 The function has its peak at the mean, and its “spread” increases with the standard deviation (the function reaches 0.607 times its maximum at $x + \sigma$ and $x- \sigma$ .
+```python
 
 #### Seeds in generating pseudorandom numbers
 
