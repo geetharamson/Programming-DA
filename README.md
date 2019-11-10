@@ -113,21 +113,22 @@ The reason for using a seed of some value is when we want to debug the program u
 [link] : https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Typesetting%20Equations.html#Other-Syntax
 
 [link] : https://stanford.edu/~shervine/teaching/cs-229/refresher-probabilities-statistics
+
 [link] : https://www.programcreek.com/python/example/50979/numpy.random.poisson
 
-## Requirements
+# Requirements
 
-Python version - 3.7.4
+#### Python version - 3.7.4
 
-[link] https://git-scm.com/
+#### [link] https://git-scm.com/
 
-Cmder | Console Emulator [link] http://cmder.net/
+#### Cmder | Console Emulator [link] http://cmder.net/
 
-Jupyter Notebook
+#### Jupyter Notebook
 
-Windows only: if you are using Windows I recommend you use cmder as your terminal. If you are on Mac or Linux I recommend you use the default Terminal to open the project.
+#### Windows only : if you are using Windows I recommend you use cmder as your terminal. If you are on Mac or Linux I recommend you use the default Terminal to open the project.
 
-[link] https://raw.githubusercontent.com/geetharamson/Programming-DA/master/programming%20DA.ipynb
-
-Else in [link] https://nbviewer.jupyter.org/ Paste https://github.com/geetharamson/Programming-DA
+#### [link] https://raw.githubusercontent.com/geetharamson/Programming-DA/master/programming%20DA.ipynb
+Else in 
+#### [link] https://nbviewer.jupyter.org/ Paste https://github.com/geetharamson/Programming-DA
 
