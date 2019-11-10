@@ -1,5 +1,5 @@
 # Programming-DA
- https://raw.githubusercontent.com/geetharamson/Programming-DA/master/programming%20DA.ipynb
+ https://raw.githubusercontent.com/geetharamson/Programming-DA/
 ## Geetha Karthikesan-DA 2019-2020 
   
 ####  1.Purpose of Numpy.random package
@@ -128,7 +128,7 @@ The reason for using a seed of some value is when we want to debug the program u
 
 #### Windows only : if you are using Windows I recommend you use cmder as your terminal. If you are on Mac or Linux I recommend you use the default Terminal to open the project.
 
-#### [link] https://raw.githubusercontent.com/geetharamson/Programming-DA/master/programming%20DA.ipynb
+#### [link] https://raw.githubusercontent.com/geetharamson/Programming-DA
 Else in 
 #### [link] https://nbviewer.jupyter.org/ Paste https://github.com/geetharamson/Programming-DA
 
