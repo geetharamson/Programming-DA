@@ -1,5 +1,4 @@
 # Programming-DA
- https://raw.githubusercontent.com/geetharamson/Programming-DA/
 ## Geetha Karthikesan-DA 2019-2020 
   
 ####  1.Purpose of Numpy.random package
@@ -49,11 +48,11 @@ Permuted sequence or array range
 
 When df independent random variables, each with standard normal distributions (mean 0, variance 1), are squared and summed, the resulting distribution is chi-square (see Notes). This distribution is often used in hypothesis testing.
 Parameters:	
-df : float or array_like of floats
-Number of degrees of freedom, should be > 0.
-size : int or tuple of ints, optional
-
-Output shape. If the given shape is, e.g., (m, n, k), then m * n * k samples are drawn. If size is None (default), a single value is returned if df is a scalar. Otherwise, np.array(df).size samples are drawn.
+    
+    df : float or array_like of floats
+    Number of degrees of freedom, should be > 0.
+    size : int or tuple of ints, optional
+    Output shape. If the given shape is, e.g., (m, n, k), then m * n * k samples are drawn. If size is None (default), a single value is returned ie. df is a scalar. Otherwise np.array(df).size samples are drawn.
 
 Returns:	
 out : ndarray or scalar
@@ -100,35 +99,35 @@ The reason for using a seed of some value is when we want to debug the program u
  
 ## References 
 
-[link] : https://machinelearningmastery.com/how-to-generate-random-numbers-in-python/
+[link]: https://machinelearningmastery.com/how-to-generate-random-numbers-in-python/
 
-[link] : https://www.howtogeek.com/183051/htg-explains-how-computers-generate-random-numbers/
+[link]: https://www.howtogeek.com/183051/htg-explains-how-computers-generate-random-numbers/
 
-[link] : http://ftp.heanet.ie/pub/ctan.org/tex/info/symbols/comprehensive/symbols-a4.pdf
+[link]: http://ftp.heanet.ie/pub/ctan.org/tex/info/symbols/comprehensive/symbols-a4.pdf
 
-[link] : https://numpy.org/doc/1.17/user/basics.types.html
+[link]: https://numpy.org/doc/1.17/user/basics.types.html
 
-[link] : https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.random.normal.html#numpy.random.normal
+[link]: https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.random.normal.html#numpy.random.normal
 
-[link] : https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Typesetting%20Equations.html#Other-Syntax
+[link]: https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Typesetting%20Equations.html#Other-Syntax
 
-[link] : https://stanford.edu/~shervine/teaching/cs-229/refresher-probabilities-statistics
+[link]https://stanford.edu/~shervine/teaching/cs-229/refresher-probabilities-statistics
 
-[link] : https://www.programcreek.com/python/example/50979/numpy.random.poisson
+[link]https://www.programcreek.com/python/example/50979/numpy.random.poisson
 
 # Requirements
 
 #### Python version - 3.7.4
 
-#### [link] https://git-scm.com/
+#### [link]https://git-scm.com/
 
-#### Cmder | Console Emulator [link] http://cmder.net/
+#### Cmder|Console Emulator [link]http://cmder.net/
 
 #### Jupyter Notebook
 
-#### Windows only : if you are using Windows I recommend you use cmder as your terminal. If you are on Mac or Linux I recommend you use the default Terminal to open the project.
+#### Windows : if you are using Windows I recommend you use cmder as your terminal. If you are on Mac or Linux I recommend you use the default Terminal to open the project.
 
-#### [link] https://raw.githubusercontent.com/geetharamson/Programming-DA
+#### [link]https://raw.githubusercontent.com/geetharamson/Programming-DA
 Else in 
-#### [link] https://nbviewer.jupyter.org/ Paste https://github.com/geetharamson/Programming-DA
+#### [link]https://nbviewer.jupyter.org/ Paste https://github.com/geetharamson/Programming-DA
 
