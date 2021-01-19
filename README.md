@@ -99,35 +99,35 @@ The reason for using a seed of some value is when we want to debug the program u
  
 ## References 
 
-[link]: https://machinelearningmastery.com/how-to-generate-random-numbers-in-python/
+[Machinelearning](https://machinelearningmastery.com/how-to-generate-random-numbers-in-python/)
 
-[link]: https://www.howtogeek.com/183051/htg-explains-how-computers-generate-random-numbers/
+[Geek](https://www.howtogeek.com/183051/htg-explains-how-computers-generate-random-numbers/)
 
-[link]: http://ftp.heanet.ie/pub/ctan.org/tex/info/symbols/comprehensive/symbols-a4.pdf
+[ftp](http://ftp.heanet.ie/pub/ctan.org/tex/info/symbols/comprehensive/symbols-a4.pdf)
 
-[link]: https://numpy.org/doc/1.17/user/basics.types.html
+[numpy](https://numpy.org/doc/1.17/user/basics.types.html)
 
-[link]: https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.random.normal.html#numpy.random.normal
+[scipy](https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.random.normal.html#numpy.random.normal)
 
-[link]: https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Typesetting%20Equations.html#Other-Syntax
+[jupyter](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Typesetting%20Equations.html#Other-Syntax)
 
-[link]https://stanford.edu/~shervine/teaching/cs-229/refresher-probabilities-statistics
+[stanford](https://stanford.edu/~shervine/teaching/cs-229/refresher-probabilities-statistics)
 
-[link]https://www.programcreek.com/python/example/50979/numpy.random.poisson
+[programcreek](https://www.programcreek.com/python/example/50979/numpy.random.poisson)
 
 # Requirements
 
 #### Python version - 3.7.4
 
-#### [link]https://git-scm.com/
+####  [git](https://git-scm.com/)
 
-#### Cmder|Console Emulator [link]http://cmder.net/
+#### Cmder|Console Emulator [cmder](http://cmder.net/)
 
 #### Jupyter Notebook
 
 #### Windows : if you are using Windows I recommend you use cmder as your terminal. If you are on Mac or Linux I recommend you use the default Terminal to open the project.
 
-#### [link]https://raw.githubusercontent.com/geetharamson/Programming-DA
+#### [github](https://github.com/geetharamson/Programming-DA)
 Else in 
-#### [link]https://nbviewer.jupyter.org/ Paste https://github.com/geetharamson/Programming-DA
+#### [Jupyter](https://nbviewer.jupyter.org/) Paste (https://github.com/geetharamson/Programming-DA)
 
