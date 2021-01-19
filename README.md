@@ -129,5 +129,5 @@ The reason for using a seed of some value is when we want to debug the program u
 
 #### [github](https://github.com/geetharamson/Programming-DA)
 Else in 
-#### [Jupyter](https://nbviewer.jupyter.org/) Paste (https://github.com/geetharamson/Programming-DA)
+#### [Jupyterlink to my Notebook](https://github.com/geetharamson/Programming-DA/blob/master/programming%20DA.ipynb)
 
