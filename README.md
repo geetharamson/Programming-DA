@@ -1,5 +1,22 @@
-# Programming-DA
-## Geetha Karthikesan-DA 2019-2020 
+# Programming in DATA ANALYTICS
+## Geetha Karthikesan 
+### Higher Diploma in DATA ANALYTICS 2019-2020 
+
+## How to clone this repository
+A repository on GitHub exists as a remote repository. You can clone this repository to create a local copy on your computer by following these instructions:
+
+On GitHub, navigate to the main page of the repository GitHub
+
+Under the repository name, click Clone or download.
+
+Choose "Clone with HTTPS".Click the Code button which is colored green.
+
+Open a terminal on your machine. Change the current working directory to the location where you want the cloned directory to be made.
+
+Type git clone, and then paste the URL you copied in 2 above.
+
+   https://github.com/geetharamson/Programming-DA.git/
+6.Press enter to clone the repository to your machine.
   
 ####  1.Purpose of Numpy.random package
    To generate an array of random numbers  we need to use numpy. numpy has the numpy.random package which has multiple 
@@ -129,5 +146,5 @@ The reason for using a seed of some value is when we want to debug the program u
 
 #### [github](https://github.com/geetharamson/Programming-DA)
 Else in 
-#### [Jupyterlink to my Notebook](https://github.com/geetharamson/Programming-DA/blob/master/programming%20DA.ipynb)
+#### [JupyterNotebook](https://github.com/geetharamson/Programming-DA/blob/master/programming%20DA.ipynb)
 
